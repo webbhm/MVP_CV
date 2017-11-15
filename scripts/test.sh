@@ -1,0 +1,1 @@
+echo $(date +"%D %T Test")

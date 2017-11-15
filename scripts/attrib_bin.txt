@@ -1,0 +1,3 @@
+{"_id":"_design/doc","language":"javascript","views":{"attrib_bin":{"map":"function(doc) {
+  emit([doc.attribute, doc.name, doc.timestamp.split(':'), doc.value], null);
+}\n\t   \t}\n}"}}}
